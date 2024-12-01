@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Goudy+Bookletter+1911&family=Questrial&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #464646;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}
+
+nav img {
+  width: 100px;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.nav-pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.nav-pages a {
+  text-decoration: none;
+  color: white;
+  font-family: "Aboreto", system-ui;
+  font-size: 20px;
+}
+
+.box {
+  border: #EAC700 solid 2px;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #CC7878;
+  box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+}
+
+.box-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-left: 50px;
+  gap: 20px;
+  text-align: left;
+}
+
+.box-txt h2 {
+  font-family: "Figtree", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.box-txt h3 {
+  font-family: "Figtree", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 90px;
+  width: 70%;
+}
+
+.box-txt h1 {
+  font-family: "Aboreto", system-ui;
+  font-size: 50px;
+  color: #EAC700;
+}
+
+.home-img {
+  width: 50%;
+  height: 400px;
+  background-image: url('/images/homeimg.jpg');
+  background-position: 50% 15%;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.skills-header {
+  color: #EAC700;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Aboreto", system-ui;
+}
+
+.skills-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #EAC700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skill svg {
+  width: 60px;
+  height: auto;
+}
+
+.skill h3 {
+  color: white;
+  font-family: "Figtree", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+
+.post-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  border: #EAC700 solid 2px;
+  margin: 30px 30px;
+  background-color: #CC7878;
+  box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+  padding: 30px;
+  font-family: "Aboreto", system-ui;
+  color: white;
+}
+
+.post-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  color: #464646;
+  padding: 10px;
+}
+
+.post p {
+  font-family: "Figtree", sans-serif;
+  font-weight: lighter;
+}
+
+.post-img {
+  width: 400px;
+  height: 250px;
+}
+
+.read-more {
+  background-color: #CC7878;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: #CC7878 solid 2px;
+  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+font-size: 16px;
+font-weight: 600;
+font-family: "Figtree", sans-serif;
+}
+
+.read-more:hover {
+  background-color: transparent;
+  border: #CC7878 solid 2px;
+  color: #CC7878;
+  cursor: pointer;
+}
+
+footer {
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  font-family: "Figtree", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  margin-top: 2em;
+}
+
+/* single page css */
+.single-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.single-header h2,
+.contact h2  {
+  color: #EAC700;
+  text-align: center;
+  font-family: "Aboreto", system-ui;
+}
+
+.single-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.single-img {
+  width: 45%;
+  box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+}
+
+.single-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.single-info {
+  width: 45%;
+  background-color: white;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+border: #EAC700 solid 2px;
+}
+
+.single-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-info h2 {
+  font-family: "Aboreto", system-ui;
+  color: #CC7878;
+}
+
+.single-info p,
+.single-info h3 {
+  font-family: "Figtree", sans-serif;
+  line-height: 2;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+.contact-section {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact-details {
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: #CC7878;
+  box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.6);
+}
+
+.contact-details h3 {
+  font-family: "Aboreto", system-ui;
+  color: white;
+}
+
+.contact-details p,
+.contact-details a {
+  font-family: "Figtree", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.contact-details svg {
+  color: white;
+  font-size: 40px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  width: 100%;
+}
+
+.about-section img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.about-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1em;
+}
+
+.about-info p {
+  line-height: 2;
+  font-family: "Figtree", sans-serif;
+  font-size: 18px;
+}
+
+.contact-btn {
+  padding: 8px;
+  color: white;
+  border: white solid 2px;
+  background-color: transparent;
+  width: 20%;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Figtree", sans-serif;
+  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.42);
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #CC7878;
+  border: #CC7878 solid 2px;
+}

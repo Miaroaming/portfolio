@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Loosie's Superette",
+        "type": "Web Design",
+        "code": "Html & Css",
+        "image": "/images/loosiesdektopmockup.jpg",
+        "description": "For a school assignment, I collaborated on the redesign of Loosie's Superette website as part of a group project. Together, we contributed to the design process, creating a fresh and user-friendly experience. While we all coded our versions of the website individually, I took the opportunity to showcase my development skills by implementing the unique design into a fully functional site. The project is live on GitHub and Vercel. I thoroughly enjoyed the teamwork, creativity, and coding challenges, which helped deliver a distinctive and engaging user experience.",
+        "link": "formative1-2.vercel.app",
+        "date_created": "March 2024"
+    },
+    {
+        "id": 2,
+        "name": "North Island Stay",
+        "type": "Web Design",
+        "code": "Html, Css, Javascript, Fullpage.js",
+        "image": "/images/FullpageAccomodationWebsite.png",
+        "description": "This full-page application was a school assignment showcasing my UX design and development skills. I designed the website to have an app-like experience for travelers seeking accommodation near the top five most popular beaches in New Zealand's North Island. Working with fullpage.js was an enjoyable challenge, allowing me to achieve the smooth, app-inspired functionality I envisioned. The site is now live on Vercel.",
+        "link": "formative1-2.vercel.app",
+        "date_created": "July 2024"
+    },
+    {
+        "id": 3,
+        "name": "Sustainable Coastlines",
+        "type": "Web Design",
+        "code": "Vite, React, Wordpress",
+        "image": "/images/multidevices-2.png",
+        "description": "Creating a functional CMS website with WordPress challenged and expanded my skills. While it was initially unfamiliar territory, I quickly adapted and found working with WordPress both engaging and rewarding. The goal of this redesign for the Sustainable Coastlines website was to declutter the interface and improve accessibility. This assignment simulated a real-world client project, requiring us to follow professional practices such as signing contracts, scheduling meetings, maintaining clear communication, and adhering to a strict timeline.",
+        "link": "...",
+        "date_created": "December 2024"
+    }
+]
