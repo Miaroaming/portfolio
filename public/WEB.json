@@ -26,7 +26,7 @@
         "code": "Vite, React, Wordpress",
         "image": "/images/multidevices-2.png",
         "description": "Creating a functional CMS website with WordPress challenged and expanded my skills. While it was initially unfamiliar territory, I quickly adapted and found working with WordPress both engaging and rewarding. The goal of this redesign for the Sustainable Coastlines website was to declutter the interface and improve accessibility. This assignment simulated a real-world client project, requiring us to follow professional practices such as signing contracts, scheduling meetings, maintaining clear communication, and adhering to a strict timeline.",
-        "link": "...",
+        "link": "https://sustainable-coastlines.vercel.app/",
         "date_created": "December 2024"
     }
 ]
