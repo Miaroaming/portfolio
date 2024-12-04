@@ -19,8 +19,6 @@ const ProjectDetails = ({project}) => {
         <button className='read-more' onClick={handleNavigate}>Read more</button>
     </div>
     </>
-
-    // projects[(project.id - 1)]
       
   )
 }

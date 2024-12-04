@@ -2,10 +2,16 @@ import React from 'react'
 import { FaBehanceSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLogoLinkedin } from "react-icons/io";
+import Seo from '../components/Seo';
 
 const Contact = () => {
   return (
     <>
+    <Seo
+        title="Contact - Mia Lamerton Design"
+        description="Browse my homepage"
+        url={window.location.href}
+      />
     <div className='contact'>
       <h2>Contact Me</h2>
       <div className='contact-section'>

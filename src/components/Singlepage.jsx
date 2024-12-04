@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import axios from 'axios'
 import { useParams, useNavigate } from 'react-router-dom'
 import { FaArrowLeftLong } from "react-icons/fa6";
+import Seo from './Seo';
 
 const Singlepage = () => {
     const navigate = useNavigate();
@@ -45,6 +46,11 @@ const Singlepage = () => {
 
   return (
     <>
+    <Seo
+        title={project.name + ' - Mia Lamerton Design'}
+        description="Browse my project!"
+        url={window.location.href}
+      />
     <div className='single-header'>
         <button className='read-more' onClick={handleBackClick}><FaArrowLeftLong /> Back</button>
         <h2>{project.name}</h2>
@@ -68,8 +74,11 @@ const Singlepage = () => {
             </div>
 
             <div className='single-description'>
-                <h3>Website Link:</h3>
-                <a href={project.link}> <p>{project.link}</p> </a>
+                <h3>Vercel Link:</h3>
+                <a href={project.vercel_link}> <p>{project.vercel_link}</p> </a>
+                <h3>Github Repo Link/s:</h3>
+                <a href={project.github_link}> <p>{project.github_link}</p> </a>
+                <a href={project.custom_theme_link}> <p>{project.custom_theme_link}</p> </a>
             </div>
             
             

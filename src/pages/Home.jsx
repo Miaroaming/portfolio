@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios';
 import ProjectDetails from '../components/ProjectDetails';
 import {useNavigate} from 'react-router-dom'
+import Seo from '../components/Seo';
 // qualification icons
 import { MdDesignServices } from "react-icons/md";
 import { LuFolderCog2 } from "react-icons/lu";
@@ -58,6 +59,11 @@ const Home = () => {
 
   return (
     <>
+    <Seo
+        title="Home - Mia Lamerton Design"
+        description="Browse my homepage"
+        url={window.location.href}
+      />
     <div className='box'>
         <div className='box-txt'>
             <h2>Kia ora and Welcome to</h2>
