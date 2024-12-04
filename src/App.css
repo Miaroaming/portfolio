@@ -449,8 +449,11 @@ border: #EAC700 solid 2px;
 }
 
 @media screen and (max-width: 650px) {
+  .post-box {
+    padding: 15px;
+  }
   .post {
-    width: 90%;
+    width: 100%;
   }
   .box-txt {
     width: 70%;
@@ -467,6 +470,9 @@ border: #EAC700 solid 2px;
   }
   .box-txt h1 {
     font-size: 40px;
+  }
+  .contact-btn {
+    width: 40%;
   }
 }
 
